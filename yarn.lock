@@ -8768,10 +8768,10 @@ overpass-frontend@^3.1.1:
     weight-sort "^1.3.1"
     xmlhttprequest "*"
 
-overpass-layer@3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/overpass-layer/-/overpass-layer-3.4.0.tgz#7d97b8811fb8fb558dcd8d761aadfd2502c52f4b"
-  integrity sha512-nGosUpMQGkQ/P3Ydki3iw89UmeGjuik1xwWfknG7KjdBB1q50uS5/dwvyvKckGGv7ewdwQOhhnO3WP0j+9+EtA==
+overpass-layer@3.5.2:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/overpass-layer/-/overpass-layer-3.5.2.tgz#b253907a2d29a974f33c95603ed7a2be2b3bb518"
+  integrity sha512-m6kKAbvtyhfm900pxbcUPz3k9TYPUk3o6m24D+nMn1meC/nU9gpbVLIPogpq5oo49e28wNEoifKT4dzP5tzu0w==
   dependencies:
     "@turf/along" "^6.5.0"
     "@turf/intersect" "^6.5.0"
