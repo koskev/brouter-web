@@ -1,5 +1,6 @@
 # brouter-web
 This is just a basic fork with updated dependencies and a container image.
+Seems like there is more broken, than I thought. Currently not really useable. Need to debug later
 
 Web client (by [@nrenner](https://github.com/nrenner) and [contributors](https://github.com/nrenner/brouter-web/graphs/contributors)) for the BRouter routing engine (by [@abrensch](https://github.com/abrensch)).
 
