@@ -14,7 +14,6 @@
         "prettier": "prettier --write '**/*'",
         "serve": "gulp serve watch",
         "standalone": "../brouter/gradlew -p ../brouter clean build && ../brouter/misc/scripts/generate_profile_variants.sh && gulp release:zip_standalone",
-        "prepare": "husky install"
     },
     "repository": {
         "type": "git",
@@ -119,7 +118,6 @@
         "gulp-uglify": "3.0.2",
         "gulp-util": "3.0.8",
         "gulp-zip": "5.1.0",
-        "husky": "8.0.3",
         "i18next-scanner": "4.4.0",
         "jest": "29.7.0",
         "jest-environment-jsdom": "29.7.0",
