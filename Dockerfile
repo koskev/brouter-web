@@ -1,8 +1,9 @@
 FROM node:lts as build
 RUN mkdir /tmp/brouter-web
 WORKDIR /tmp/brouter-web
-COPY . .
+COPY package.json yarn.lock .
 RUN yarn install
+COPY . .
 RUN yarn run build
 
 FROM nginx:alpine
