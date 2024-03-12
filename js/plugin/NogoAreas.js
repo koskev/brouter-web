@@ -434,7 +434,7 @@ BR.Editable = L.Editable.extend({
         L.Editable.prototype.initialize.call(this, map, options);
 
         if (!this.map.tap) {
-            this.map.addHandler('tap', L.Map.Tap);
+            this.map.addHandler('tap', L.Map.TapHold);
             this.map.tap.disable();
         }
     },
