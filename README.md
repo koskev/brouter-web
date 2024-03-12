@@ -1,4 +1,5 @@
 # brouter-web
+This is just a basic fork with updated dependencies and a container image.
 
 Web client (by [@nrenner](https://github.com/nrenner) and [contributors](https://github.com/nrenner/brouter-web/graphs/contributors)) for the BRouter routing engine (by [@abrensch](https://github.com/abrensch)).
 
