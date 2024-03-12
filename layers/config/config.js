@@ -3,7 +3,7 @@ BR.confLayers = {};
 BR.confLayers.defaultBaseLayers = [
     'standard',
     'OpenTopoMap',
-    'Stamen.Terrain',
+    'Stadia.StamenTerrain',
     'Esri.WorldImagery'
 ];
 
@@ -32,7 +32,7 @@ BR.confLayers.legacyNameToIdMap = {
 };
 
 BR.confLayers.leafletProvidersIncludeList = [
-    'Stamen.Terrain',
+    'Stadia.StamenTerrain',
     'MtbMap',
     'OpenStreetMap.CH',
     'HikeBike.HillShading',

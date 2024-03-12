@@ -14,7 +14,7 @@ BR.confLayers.getPropertyOverrides = function() {
             },
             'mapUrl': 'https://opentopomap.org/#map={zoom}/{lat}/{lon}'
         },
-        'Stamen.Terrain': {
+        'Stadia.StamenTerrain': {
             'name': i18next.t('map.layer.stamen-terrain'),
             'attribution': '&copy; <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>',
             'mapUrl': 'http://maps.stamen.com/#terrain/{zoom}/{lat}/{lon}'
