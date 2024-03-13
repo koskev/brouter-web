@@ -13,7 +13,7 @@
         "lint": "eslint .",
         "prettier": "prettier --write '**/*'",
         "serve": "gulp serve watch",
-        "standalone": "../brouter/gradlew -p ../brouter clean build && ../brouter/misc/scripts/generate_profile_variants.sh && gulp release:zip_standalone",
+        "standalone": "../brouter/gradlew -p ../brouter clean build && ../brouter/misc/scripts/generate_profile_variants.sh && gulp release:zip_standalone"
     },
     "repository": {
         "type": "git",
