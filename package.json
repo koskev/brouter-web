@@ -117,7 +117,7 @@
         "gulp-sourcemaps": "3.0.0",
         "gulp-uglify": "3.0.2",
         "gulp-util": "3.0.8",
-        "gulp-zip": "5.1.0",
+        "gulp-zip": "6.0.0",
         "i18next-scanner": "4.4.0",
         "jest": "29.7.0",
         "jest-environment-jsdom": "29.7.0",

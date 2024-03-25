@@ -2849,7 +2849,7 @@
   resolved "https://registry.yarnpkg.com/@types/tough-cookie/-/tough-cookie-4.0.5.tgz#cb6e2a691b70cb177c6e3ae9c1d2e8b2ea8cd304"
   integrity sha512-/Ad8+nIOV7Rl++6f1BdKxFSMgmoqEoYbHRpPcx3JEfv8VRsQe9Z4mCXeJBzxs7mbHY/XOZZuXlRNfhpVPbs6ZA==
 
-"@types/vinyl@^2.0.4":
+"@types/vinyl@^2.0.4", "@types/vinyl@^2.0.9":
   version "2.0.11"
   resolved "https://registry.yarnpkg.com/@types/vinyl/-/vinyl-2.0.11.tgz#b95a5bb007e7a0a61dad5a8971dc9922abbc2629"
   integrity sha512-vPXzCLmRp74e9LsP8oltnWKTH+jBwt86WgRUb4Pc9Lf3pkMVGyvIo2gm9bODeGfCay2DBB/hAWDuvf07JcK4rw==
@@ -3980,6 +3980,11 @@ chalk@^2.3.0, chalk@^2.4.2:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
+chalk@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.3.0.tgz#67c20a7ebef70e7f3970a01f90fa210cb6860385"
+  integrity sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==
+
 chalk@~0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-0.4.0.tgz#5199a3ddcd0c1efe23bc08c1b027b06176e0c64f"
@@ -4816,6 +4821,11 @@ easy-extender@^2.3.4:
   integrity sha512-8cAwm6md1YTiPpOvDULYJL4ZS6WfM5/cTeVVh4JsvyYZAoqlRVUpHL9Gr5Fy7HA6xcSZicUia3DeAgO3Us8E+Q==
   dependencies:
     lodash "^4.17.10"
+
+easy-transform-stream@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/easy-transform-stream/-/easy-transform-stream-1.0.1.tgz#faffdd1839a03d14d76e694bd2e6315551a6a215"
+  integrity sha512-ktkaa6XR7COAR3oj02CF3IOgz2m1hCaY3SfzvKT4Svt2MhHw9XCt+ncJNWfe2TGz31iqzNGZ8spdKQflj+Rlog==
 
 eazy-logger@^4.0.1:
   version "4.0.1"
@@ -5781,7 +5791,7 @@ get-stdin@^4.0.1:
   resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-4.0.1.tgz#b968c6b0a04384324902e8bf1a5df32579a450fe"
   integrity sha512-F5aQMywwJ2n85s4hJPTT9RPxGmubonuB10MNYo17/xph174n2MIR33HRguhzVag10O/npM7SPk73LMZNP+FaWw==
 
-get-stream@^5.0.0, get-stream@^5.2.0:
+get-stream@^5.0.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-5.2.0.tgz#4966a1795ee5ace65e706c4b7beb71257d6e22d3"
   integrity sha512-nBF+F1rAZVCu/p7rjzgA+Yb4lfYXrpl7a6VmJrU8wF9I1CKvP/QwPNZHnOlwbTkY6dvtFIzFMSyQXbLoTQPRpA==
@@ -5792,6 +5802,11 @@ get-stream@^6.0.0, get-stream@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-6.0.1.tgz#a262d8eef67aced57c2852ad6167526a43cbf7b7"
   integrity sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==
+
+get-stream@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-8.0.1.tgz#def9dfd71742cd7754a7761ed43749a27d02eca2"
+  integrity sha512-VaUJspBffn/LMCJVoMvSAdmscJyS1auj5Zulnn5UoYcY531UWmdwhRWkcGKnGU93m5HSXP9LP2usOryrBtQowA==
 
 get-value@^2.0.2, get-value@^2.0.3, get-value@^2.0.6:
   version "2.0.6"
@@ -6187,6 +6202,15 @@ gulp-modify-css-urls@2.0.0:
     vinyl "^2.1.0"
     vinyl-sourcemaps-apply "^0.2.1"
 
+gulp-plugin-extras@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/gulp-plugin-extras/-/gulp-plugin-extras-0.3.0.tgz#ad2c15eb7d7153a75556c59ee81d84693ec42330"
+  integrity sha512-I/kOBSpo61QsGQZcqozZYEnDseKvpudUafVVWDLYgBFAUJ37kW5R8Sjw9cMYzpGyPUfEYOeoY4p+dkfLqgyJUQ==
+  dependencies:
+    "@types/vinyl" "^2.0.9"
+    chalk "^5.3.0"
+    easy-transform-stream "^1.0.1"
+
 gulp-postcss@10.0.0:
   version "10.0.0"
   resolved "https://registry.yarnpkg.com/gulp-postcss/-/gulp-postcss-10.0.0.tgz#a88d7c6602f8a8c94aaa9f28ac3a68def00c7ada"
@@ -6286,15 +6310,14 @@ gulp-util@3.0.8, gulp-util@^3.0.7, gulp-util@^3.0.8:
     through2 "^2.0.0"
     vinyl "^0.5.0"
 
-gulp-zip@5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/gulp-zip/-/gulp-zip-5.1.0.tgz#38cc1d4c61bc2ab06b452ce463cbe2adc52b935e"
-  integrity sha512-XZr/y91IliK/SpR74g3TkZejGkGEmK7CSDjSghT1jXshgO+dFvpLIz9w9fpuwkew6i7k4F+G24TubNgq1ISzEw==
+gulp-zip@6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/gulp-zip/-/gulp-zip-6.0.0.tgz#17089abf9ec0823492c0e3696ba68caf7094cc6c"
+  integrity sha512-fPGvNve2dBoZxGKcviTU7mOa77eQibyhwgGLTxnF+ZCKX8RFaTZKkPbdPnmw0r4TNPRjPCkQB/0VuP+MzgkEYg==
   dependencies:
-    get-stream "^5.2.0"
-    plugin-error "^1.0.1"
-    through2 "^3.0.1"
-    vinyl "^2.1.0"
+    get-stream "^8.0.1"
+    gulp-plugin-extras "^0.3.0"
+    vinyl "^3.0.0"
     yazl "^2.5.1"
 
 gulp@4.0.2:
@@ -6551,11 +6574,6 @@ human-signals@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
   integrity sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
-
-husky@8.0.3:
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/husky/-/husky-8.0.3.tgz#4936d7212e46d1dea28fef29bb3a108872cd9184"
-  integrity sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==
 
 hyperquest@~1.2.0:
   version "1.2.0"
