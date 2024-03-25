@@ -125,7 +125,7 @@
         "merge-stream": "2.0.0",
         "node-fetch": "3.3.2",
         "npmfiles": "0.1.3",
-        "postcss": "8.4.35",
+        "postcss": "8.4.38",
         "prettier": "2.8.8",
         "pretty-quick": "3.3.1"
     },
