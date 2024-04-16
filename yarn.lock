@@ -4333,10 +4333,10 @@ copy-props@^2.0.1:
     each-props "^1.3.2"
     is-plain-object "^5.0.0"
 
-core-js-bundle@3.36.0:
-  version "3.36.0"
-  resolved "https://registry.yarnpkg.com/core-js-bundle/-/core-js-bundle-3.36.0.tgz#fe337cad70ca26feb6d4394a8e79b011cdbbf7ef"
-  integrity sha512-sWH3pC9VfXApMCd2a9UcL6lm0iYCX94dEngjFK847slJuF0zkvdPmvCsCeQp0TvRbq6BNg0vz4iyRvsZeoEF5Q==
+core-js-bundle@3.37.0:
+  version "3.37.0"
+  resolved "https://registry.yarnpkg.com/core-js-bundle/-/core-js-bundle-3.37.0.tgz#7d79cd80e4d3f5dd4e5a7f869b2575d9f84c0f2c"
+  integrity sha512-AdUUF5R8+2ytuozAN2idBfGiDqtdsRVClilMCQSso/MBaZ+Uc4ENgzQkrRV4VRspari6L5te8sROcxGS7sncGQ==
 
 core-js-compat@^3.31.0, core-js-compat@^3.34.0:
   version "3.36.0"
@@ -6551,11 +6551,6 @@ human-signals@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
   integrity sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
-
-husky@8.0.3:
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/husky/-/husky-8.0.3.tgz#4936d7212e46d1dea28fef29bb3a108872cd9184"
-  integrity sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==
 
 hyperquest@~1.2.0:
   version "1.2.0"
